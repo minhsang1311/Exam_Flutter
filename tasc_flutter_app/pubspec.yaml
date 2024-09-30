@@ -1,0 +1,35 @@
+name: tasc_flutter_app
+description: A Flutter app for popular destinations with dynamic data loading using Spring Boot API.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP package for making API requests
+  http: ^0.13.3
+
+  # State management - You can use Provider, Riverpod, etc.
+  provider: ^6.0.3
+
+  # Additional Flutter packages
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.0   # For efficient image loading and caching
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lint package to ensure the code is in line with Dart best practices
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset configurations
+  assets:
+    - assets/images/    # Add images if needed for the app

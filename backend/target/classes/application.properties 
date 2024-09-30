@@ -1,0 +1,13 @@
+# Spring Boot server configuration
+server.port=8080
+
+# Database configuration
+spring.datasource.url=jdbc:mysql://localhost:1008/tasc_db?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Hibernate configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect

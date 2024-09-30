@@ -1,0 +1,4 @@
+com/tasc/place/PlaceController.class
+com/tasc/place/PlaceService.class
+com/tasc/place/Place.class
+com/tasc/place/PlaceRepository.class
